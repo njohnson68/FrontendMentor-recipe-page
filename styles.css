@@ -1,8 +1,9 @@
-@import url(https://fonts.google.com/specimen/Young+Serif);
-@import url(https://fonts.google.com/specimen/Outfit);
+@import url(https://fonts.googleapis.com/css2?family=Young+Serif&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap);
 
 body {
   background-color: hsl(30, 54%, 90%);
+  height: auto;
 }
 
 .white-box {
@@ -15,15 +16,21 @@ body {
   background-color: hsl(0, 0%, 100%);
   width: 100%;
   max-width: 800px;
-  height: 65rem;
+  height: 78rem;
   border-radius: 2%;
   padding: 2rem;
 }
 
 .omelette-img {
-  width: 30rem;
+  width: 50rem;
   height: 5rem;
   border-radius: 2%;
+}
+
+.simple {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .simple-paragraph {
@@ -40,11 +47,19 @@ body {
 
 .preparation {
   color: hsl(332, 51%, 32%);
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .prep-list li {
   padding-left: 1rem;
   line-height: 2rem;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .prep-list li::marker {
@@ -53,10 +68,18 @@ body {
 
 .ingredients {
   color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .ing-list li {
   padding-left: 1rem;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 2rem;
 }
 
 .ing-list li::marker {
@@ -65,10 +88,18 @@ body {
 
 .instructions {
   color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .inst-list li {
   padding-left: 1rem;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5rem;
 }
 
 .inst-list li::marker {
@@ -83,12 +114,26 @@ body {
 
 .nutrition {
   color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nutrition-paragraph {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 table {
   line-height: 2rem;
   border-collapse: collapse;
   width: 100%;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 tr {
