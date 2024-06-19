@@ -3,7 +3,7 @@
 
 body {
   background-color: hsl(30, 54%, 90%);
-  height: auto;
+  height: 100dvh;
 }
 
 .white-box {
@@ -11,26 +11,27 @@ body {
   top: 50%;
   left: 50%;
   margin-right: -50%;
-  margin-top: 10rem;
+  margin-top: 30rem;
   transform: translate(-50%, -50%);
   background-color: hsl(0, 0%, 100%);
   width: 100%;
   max-width: 800px;
-  height: 78rem;
+  height: 98rem;
   border-radius: 2%;
   padding: 2rem;
 }
 
 .omelette-img {
   width: 50rem;
-  height: 5rem;
-  border-radius: 2%;
+  height: 20rem;
+  border-radius: 10px;
 }
 
 .simple {
   font-family: "Young Serif", serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 36px;
 }
 
 .simple-paragraph {
@@ -38,18 +39,20 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  color: hsl(30, 10%, 34%);
 }
 
 .purple-box {
   background-color: hsl(330, 100%, 98%);
   padding: 1rem;
+  border-radius: 10px;
 }
 
 .preparation {
   color: hsl(332, 51%, 32%);
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
 }
 
@@ -60,6 +63,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  color: hsl(30, 10%, 34%);
 }
 
 .prep-list li::marker {
@@ -80,6 +84,7 @@ body {
   font-weight: 400;
   font-style: normal;
   line-height: 2rem;
+  color: hsl(30, 10%, 34%);
 }
 
 .ing-list li::marker {
@@ -100,6 +105,7 @@ body {
   font-weight: 400;
   font-style: normal;
   line-height: 1.5rem;
+  color: hsl(30, 10%, 34%);
 }
 
 .inst-list li::marker {
@@ -108,8 +114,8 @@ body {
 }
 
 .inst-sect {
-  border-top: 1px solid hsl(30, 10%, 34%);
-  border-bottom: 1px solid hsl(30, 10%, 34%);
+  border-top: 1px solid hsl(30, 18%, 87%);
+  border-bottom: 1px solid hsl(30, 18%, 87%);
 }
 
 .nutrition {
@@ -124,6 +130,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  color: hsl(30, 10%, 34%);
 }
 
 table {
@@ -136,12 +143,17 @@ table {
   font-style: normal;
 }
 
-tr {
-  border-bottom: 1px solid hsl(30, 10%, 34%);
+.border-tr {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
 }
 
 .color-td {
   color: hsl(14, 45%, 36%);
+}
+
+.grey-td {
+  color: hsl(30, 10%, 34%);
+  padding-left: 2rem;
 }
 
 .attribution {
